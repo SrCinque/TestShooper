@@ -29,3 +29,15 @@ model Custumer {
   @@map("custumers ")
 }
 
+model Measures {
+  measure_uuid String @id @map("_id") 
+  customer_code String
+  measure_datetime DateTime
+  measure_type String
+  has_confirmed Boolean
+  measure_value Int
+  image_url String
+
+  @@map("Measures ")
+
+}

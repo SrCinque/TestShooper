@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.5.1",
+    "@types/uuid": "^10.0.0",
     "prisma": "^5.19.0",
     "typescript": "^5.5.4"
   },
@@ -20,6 +21,7 @@
     "dotenv": "^16.4.5",
     "fastify": "^4.28.1",
     "fs": "^0.0.1-security",
-    "tsx": "^4.19.0"
+    "tsx": "^4.19.0",
+    "uuid": "^10.0.0"
   }
 }
